@@ -1,118 +1,106 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-            <nav>
-                <label class="logo">My Website</label>
-                
-<ul>
-    
-    <li><a href="#">Link1</a></li>
-    <li><a href="#">Link2</a></li>
-    <li><a href="#">Link3</a></li>
-  
-</ul>
-            </nav>
-            <br><br>
-            <h1 class="head"><b>This is the main heading</b></h1>
-            <br>
-            <br><br>
-            <div class="ph1">
-                
-            <p>
-                Veggies bounus vobis,pronide vos postulo essum magis kohlrabi welsh onion daikon<br>
-                amaranth tatsoi tomatillo melon bean garlic.
-            </p><br>
-            <br>
-            <p>Gumbo beet greens com seak endivbne gumbo parslu shallot xourgate tatsi pea<br>
-                sputrus fava bean collard greens dandilons okatr wakame tomato.Dandelio cucmber<br>
-                earthquake pea peanut soko zucchini.
-            </p>
-            </div>
-            <div>
-                
-                <div class="box">
-                    <p>Have you discoveres all the otherexcellent content on the websiute?</p>
-                </div><br>
-             
-
-             </div>
-             <div class="card1" >
-                <div class="cardone">
-<b>Card One</b>
-                </div>
-                <div class="tex1">
-                    <p>Turnip greens yarrow ricebean<br>
-                        runtbaga endive cauliflower sea letter<br>
-                        kohlrabi amarnth water spinach<br>
-                        avocada.
-                        </p>
-                
-                </div>
-
-             </div>
-             <div class="card2" >
-                <div class="cardtwo">
-<b>Card two</b>
-                </div>
-                <div class="tex2">
-                    <p>Turnip greens yarrow ricebean<br>
-                        runtbaga endive cauliflower sea letter<br>
-                        kohlrabi amarnth water spinach<br>
-                        avocada.
-                        </p>
-                
-                </div>
-
-             </div>
-             <div class="card3" >
-                <div class="cardthree">
-<b>Card three</b>
-                </div>
-                <div class="tex3">
-                    <p>Turnip greens yarrow ricebean<br>
-                        runtbaga endive cauliflower sea letter<br>
-                        kohlrabi amarnth water spinach<br>
-                        avocada.
-                        </p>
-                
-                </div>
-
-             </div>
-
-
-
-             <div class="card4" >
-                <div class="cardfour">
-<b>Card four</b>
-                </div>
-                <div class="tex4">
-                    <p>Turnip greens yarrow ricebean<br>
-                        runtbaga endive cauliflower sea letter<br>
-                        kohlrabi amarnth water spinach<br>
-                        avocada.
-                        </p>
-                
-                </div>
-
-             </div>
-
-
-             <div class="card5" >
-                <div class="cardfive">
-<b>Card five</b>
-                </div>
-                <div class="tex5">
-                    <p>Turnip greens yarrow ricebean<br>
-                        runtbaga endive cauliflower sea letter<br>
-                        kohlrabi amarnth water spinach<br>
-                        avocada.
-                        </p>
-                
-                </div>
-
-             </div>
-      
-    </body>
+<head>
+<style>
+.header
+  {
+    background-color: #4d4d4d;
+    color:white;
+    width:100%;
+    padding:25px; 
+    justify-content:space-between;
+    display:flex;
+    margin:0 0;
+    border:4px solid black;
+  }
+  .header li{
+    list-style-type:none;
+    display:inline-block;
+    margin:auto 0;
+    padding:30px;  
+  }
+  .header a{
+    text-decoration:none;
+    color:white;
+    font-family:arial;
+    display:flex;
+  }
+  .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+    }
+ .box {
+  width: 50%;
+  padding: 10px;  
+}
+  .cardhead{
+    background-color:#4d4d4d;
+    color:white;
+    padding:5px;
+  }
+  .cardborder{
+    border:4px solid black;
+  }
+  .boxodd{
+  float: left;
+  width: 48%;
+}
+ .boxeven{
+  float: right;
+  width: 48%;  
+}
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1><i>My Website </i></h1>
+    <nav>
+    <li><a href="link1">Link 1</a></li>
+    <li><a href="link2">Link 2</a></li>
+    <li><a href="link3">Link 3</a></li>
+    </nav>
+  </div> 
+  <div class="flex-container">
+  <div class="box"style="background-color:white">
+    <h1>This is the main heading</h1>
+    <p> Veggies es bonus vobis, provide vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+      <br></br>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fave bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p><br/>  
+    <div class="boxodd">
+    <div class="cardborder">
+<div class="cardhead">
+  <h2>Card One</h2>
+  </div>
+  <p style="margin:15px 6px">Turnip greens yarrow ricebean runtbaga endive cauliflower sea lettuce
+     kohlrabi amarnth water spinach avocada.</p>
+</div><br/></div>
+<div class="boxeven">
+ <div class="cardborder">
+<div class="cardhead">
+  <h2>Card Two</h2>
+  </div>
+<p style="margin: 15px 6px"> Daikon napa cabbage asparagus winter purslane kale.Celery potato scallion desert raisin horseradish spinach carrot soko.</p></div><br/>
+</div>
+<div class="boxodd">
+<div class="cardborder">
+<div class="cardhead">
+  <h2>Card Three</h2>
+  </div>
+<p style="margin:15px 6px"> Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.</p></div><br/></div>
+<div class="boxeven">
+<div class="cardborder">
+<div class="cardhead">
+  <h2>Card Four</h2>
+  </div>
+<p style="margin: 15px 6px">Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.</p></div><br/></div>
+<div class="boxodd">
+<div class="cardborder">
+<div class="cardhead">
+  <h2>Card Five</h2>
+  </div>
+<p style="margin: 15px 6px"> Nori grape silver beet broccoli kombu beet greens fava bean potato  quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p></div><br/></div>
+  </div>
+  <div class="box" style="background-color:#4d4d4d;border:4px solid black; color:white;margin:20px 10px 30px 10px;">Have you discovered all of the other excellent content on this website?</div>
+</div>
+</body>
 </html>
